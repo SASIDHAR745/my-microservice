@@ -49,9 +49,9 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t Sasidhar345/my-microservice .
+        docker build -t sasidhar345/my-microservice .
 
     - name: Push Docker image
       run: |
-        docker push Sasidhar345/my-microservice
+        docker push sasidhar345/my-microservice
 
